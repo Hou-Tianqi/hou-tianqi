@@ -12,6 +12,7 @@ import Hello from './components/Hello.vue'
 <p>😭骗你的点不到3个star也得加</p>
 </div>
 </div>
+<!--🤫如果你是看到了源码的人（很少可能会看到）你接下来一年里都会好运爆棚-->
 </template>
 
 <style>
