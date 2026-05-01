@@ -62,8 +62,12 @@ async function fetchMessages() {
   loading.value = true
   try {
     const res = await fetch(API_BASE)
-    messages.value = await res.json()
+    console.log('API 响应状态:', res.status)  // 👈 加这行
+    const data = await res.json()
+    console.log('拿到的数据:', data)  // 👈 加这行
+    messages.value = data
   } catch (e) {
+    console.error('请求出错:', e)  // 👈 加这行
     errorMsg.value = '加载留言失败，请稍后再试'
   } finally {
     loading.value = false
