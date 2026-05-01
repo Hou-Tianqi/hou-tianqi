@@ -16,6 +16,5 @@
 <style scoped>
 p{
     font-size: 20px;
-    color: rgb(0, 221, 255);
 }
 </style>
