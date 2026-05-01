@@ -1,6 +1,6 @@
 <template>
   <div class="message-board">
-    <h2>💬 留言板</h2>
+    <h2 style="font-size:40px;">💬 留言板</h2>
 
     <!-- 留言表单 -->
     <form @submit.prevent="submitMessage" class="msg-form">
