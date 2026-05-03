@@ -1,4 +1,30 @@
-html{
-  background: linear-gradient(rgb(189, 189, 189),rgb(255, 255, 255));
+html {
+  /* 1. 将所有需要的颜色写在一个渐变中 */
+  background: linear-gradient(-45deg, 
+    rgb(197, 214, 214), 
+    rgb(167, 191, 179), 
+    rgb(163, 208, 210), 
+    rgb(143, 185, 158),
+    rgb(160, 169, 168), 
+    rgb(184, 213, 199)
+  );
+  
+  /* 2. 关键：放大背景尺寸，使其远大于视口 */
+  background-size: 400% 400%;
+  
   background-attachment: fixed;
+  
+  animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
