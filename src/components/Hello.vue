@@ -1,4 +1,5 @@
 <template>
+<div id="hi">
 <h1>你好</h1>
 <p>
     这是我尝试的用Vue做的一个个人主页，虽然你可能觉得这有点杀鸡用牛刀
@@ -11,9 +12,16 @@
 <p>（长难句起手）</p>
 <br>
 <p>难以置信我居然没有联系方式（QQ:2702200569  但青少年模式，所以搜不到  邮箱:2702200569@qq.com居然能用），不过现在可以在这个网站留言了</p>
+</div>
 </template>
 
 <style scoped>
+#hi{
+    position: relative;
+    background: rgba(211, 211, 211, 0.337);
+    color: rgba(0, 0, 0, 0.745);
+    left:-5px;
+}
 p{
     font-size: 30px;
 }

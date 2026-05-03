@@ -1,13 +1,15 @@
 <script setup>
-import Hello from './components/Hello.vue'
+import Hello from './components/Hello.vue';
 import MsgBoard from './components/MsgBoard.vue';
+import Music from './components/Music.vue'
 </script>
 
 <template>
 
 <Hello></Hello>
 <MsgBoard></MsgBoard>
-
+<Music></Music>
+<br>
 <footer>
   <p style="font-size: 10px;">之所以上面的字体那么大是因为要照顾移动端而我不会写自动缩放之类的</p>
   太好啦我们已经完成了留言板的开发，但是DeepSeek写的

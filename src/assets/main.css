@@ -1,28 +1,4 @@
 html {
-  background: linear-gradient(-45deg, 
-    rgb(209, 243, 243), 
-    rgb(201, 238, 219), 
-    rgb(171, 219, 222), 
-    rgb(139, 191, 157),
-    rgb(132, 165, 206), 
-    rgb(191, 226, 209)
-  );
-  
-  background-size: 400% 400%;
-  
-  background-attachment: fixed;
-  
-  animation: gradientAnimation 10s ease infinite;
+  background: #fffff0;
 }
 
-@keyframes gradientAnimation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
