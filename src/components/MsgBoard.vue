@@ -135,14 +135,14 @@ h2 {
 
 .nickname-input {
   padding: 10px;
-  font-size: 14px;
+  font-size: 20px;
   border: 1px solid #ddd;
   border-radius: 6px;
 }
 
 .content-input {
   padding: 10px;
-  font-size: 14px;
+  font-size: 20px;
   border: 1px solid #ddd;
   border-radius: 6px;
   resize: vertical;
@@ -156,7 +156,7 @@ h2 {
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .submit-btn:disabled {

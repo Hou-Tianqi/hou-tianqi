@@ -15,7 +15,6 @@ import MsgBoard from './components/MsgBoard.vue';
   <p style="margin: 0px;">一个star就可以让我加一个新功能！</p>
 </footer>
 
-<!--🤫如果你是看到了源码的人（很少可能会看到）你接下来一年里都会好运爆棚-->
 </template>
 
 <style scoped>
@@ -23,9 +22,5 @@ footer{
   font-size: 7px;
   text-align: center;
   color: grey;
-}
-#re{
-  display: inline-block;
-  color: gray;
 }
 </style>
