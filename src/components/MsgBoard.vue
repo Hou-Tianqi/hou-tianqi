@@ -35,6 +35,7 @@
           <span class="msg-nickname">{{ msg.nickname }}</span>
           <span class="msg-time">{{ formatTime(msg.created_at) }}</span>
         </div>
+        <div class="msg-region" v-if="msg.region">📍 {{ msg.region }}</div>
         <p class="msg-content">{{ msg.content }}</p>
       </div>
       <p v-if="messages.length === 0 && !loading" class="empty-tip">
@@ -107,6 +108,8 @@ async function submitMessage() {
 // 格式化时间
 function formatTime(dateStr) {
   const d = new Date(dateStr)
+  // 加上 8 小时转为北京时间
+  d.setHours(d.getHours() + 8)
   const pad = n => String(n).padStart(2, '0')
   return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`
 }
@@ -205,5 +208,11 @@ h2 {
   text-align: center;
   color: #999;
   padding: 30px 0;
+}
+.msg-region {
+  font-size: 12px;
+  color: #999;
+  margin-top: 2px;
+  margin-bottom: 4px;
 }
 </style>
