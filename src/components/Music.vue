@@ -1,6 +1,6 @@
 <template>
 <div id="music">
-<p>来两首首我最喜欢的歌吧 </p>
+<p>来两首我最喜欢的歌吧 </p>
 <div style="display: inline-block;">
 <p>1、河南<span class="onshow">焦作</span></p>
 <audio controls>
