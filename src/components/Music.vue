@@ -1,15 +1,23 @@
 <template>
+
 <div id="music">
 <p>来两首我最喜欢的歌吧 </p>
+
+
 <div style="display: inline-block;">
 <p>1、河南<span class="onshow">焦作</span></p>
+<p>(未改词版)</p>
+
 <audio controls>
   <source src="../../public/3.mp3" type="audio/mpeg">
   啊哦，播放失败了
 </audio>
 </div>
+
 <div style="display: inline-block;">
 <p>2、河南<span class="onshow">说唱之神</span></p>
+<p>(掐头去尾版)</p>
+
 <audio controls>
   <source src="../../public/4.mp3" type="audio/mpeg">
   啊哦，播放失败了
