@@ -2,7 +2,7 @@
 import Hello from './components/Hello.vue';
 import ShowMsgBoard from './components/ShowMsgBoard.vue';
 import Music from './components/Music.vue';
-
+import Game from './components/Game.vue'
 </script>
 
 <template>
@@ -16,8 +16,9 @@ import Music from './components/Music.vue';
   太好啦我们已经完成了留言板的开发，但是DeepSeek写的
   <a href="https://github.com/hou-tianqi/hou-tianqi" style="display: block; color: gray;">如果你有GitHub账号的话，点此支持一下这个网站</a>
   <p style="margin: 0px;">一个star就可以让我加一个新功能！</p>
+  <h1 style="font-size: 50px; color: black;">下面是一个小游戏！</h1>
 </footer>
-
+<Game/>
 </template>
 
 <style scoped>
