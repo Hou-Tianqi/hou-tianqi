@@ -1,4 +1,12 @@
 html {
   background: #fffff0;
 }
-
+.onshow{
+  background: black;
+  color: black;
+  border-radius: 10px;
+}
+.onshow:hover{
+  color: white;
+  cursor: pointer;
+}
