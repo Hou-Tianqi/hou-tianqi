@@ -10,3 +10,18 @@ html {
   color: white;
   cursor: pointer;
 }
+.better_a{
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    display:inline-block;
+}
+.card{
+    width: calc(30% + 3px);
+    height: 300px;
+    font-size: 70px;
+    text-align: center;
+    background: linear-gradient(rgba(39, 255, 154, 0.823),rgba(39, 255, 176, 0.075));
+    border-radius: 10%;
+  }

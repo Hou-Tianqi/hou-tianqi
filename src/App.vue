@@ -12,21 +12,20 @@ import DidYouKnow from './components/DidYouKnow.vue';
 <ShowMsgBoard/>
 
 <div style="text-align: center;">
-<h2>这是我刚学Blender做出来的一个红温表情包动画，感觉挺有意思的，就放这了</h2><br>
+<h2 style="font-size: 35px;">这是我刚学Blender做出来的一个红温表情包动画，感觉挺有意思的，就放这了</h2><br>
 <img src="../public/我已红温.gif" alt="啊哦，加载失败">
 </div>
 
-<br>
-<footer>
-  <p style="font-size: 10px;">之所以上面的字体那么大是因为要照顾移动端而我不会写自动缩放之类的</p>
-  太好啦我们已经完成了留言板的开发，但是DeepSeek写的
-</footer>
+<h1 style="text-align: center;font-size: 60px;">下面是我做的一些其它网站，也可以看看……</h1>
+<div id="a_card">
+<a href="https://tianqi-wall.pages.dev" class="better_a card" id="wall">？！墙墙！？</a>
+<a href="https://mc-card.pages.dev" class="better_a card">MC玩家的居民身份证</a>
+</div>
 </template>
 
 <style scoped>
-footer{
-  font-size: 7px;
-  text-align: center;
-  color: grey;
+#a_card{
+    display: flex;
+    justify-content: space-around;
 }
 </style>
