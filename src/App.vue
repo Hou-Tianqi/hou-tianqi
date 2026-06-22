@@ -13,7 +13,7 @@ import DidYouKnow from './components/DidYouKnow.vue';
 
 <div style="text-align: center;">
 <h2 style="font-size: 35px;">这是我刚学Blender做出来的一个红温表情包动画，感觉挺有意思的，就放这了</h2><br>
-<img src="../public/我已红温.gif" alt="啊哦，加载失败">
+<img src="../public/我真的裂开了.gif" alt="啊哦，加载失败">
 </div>
 
 <h1 style="text-align: center;font-size: 60px;">下面是我做的一些其它网站，也可以看看……</h1>

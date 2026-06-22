@@ -14,14 +14,46 @@ html {
     color: black;
     padding: 10px;
     margin: 10px;
+    position: relative;
+    top: 10px;
     text-decoration: none;
-    display:inline-block;
+    border-radius: 10%;
+    display: inline-block;
 }
 .card{
-    width: calc(30% + 3px);
-    height: 300px;
+    width: calc(30%);
+    aspect-ratio: 1/0.8;
     font-size: 70px;
     text-align: center;
+    margin: calc(10% / 12);
+    display: inline-block;
     background: linear-gradient(rgba(39, 255, 154, 0.823),rgba(39, 255, 176, 0.075));
+    box-shadow:0 2px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: all 0.3s;
     border-radius: 10%;
-  }
+}
+@media (hover: hover) and (pointer: fine) {
+    .card:hover{
+        transition: all 0.4s;
+        box-shadow:0 20px 20px rgba(0, 0, 0, 0.1);
+        top:-10px;
+        transform: scale(1.03);
+    }
+}
+/* 平板（768px - 1024px） */
+@media (min-width: 768px) and (max-width: 1023px) { 
+    .card{
+        width: calc(45%);
+        font-size: 45px;
+        margin: calc(10% / 8);
+    }
+ }
+ /* 手机（横屏）& 大屏手机（376px - 768px） */
+@media (min-width: 376px) and (max-width: 767px) {
+    .card{
+        width: calc(90%);
+        font-size: 30px;
+        margin: calc(10% / 4);
+    }
+}
